@@ -5,10 +5,6 @@ import useAxios from "../hooks/useAxios";
 const ProductCard = ({ product, handleEliminar}) => {
   //const URL = import.meta.env.VITE_ENDPOINT_BASE;
   const { nombre, descripcion, id, foto } = product;
-  /*const handleEliminar = async (id) => {
-    const resultado = await useAxios(`${URL}/photos/${id}`,{method:"delete"});
-    console.log(resultado);
-  }*/
   return (
     <div>
       <div className="bg-gray-200 p-4 rounded-md shadow-lg">

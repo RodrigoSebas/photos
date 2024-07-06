@@ -29,7 +29,7 @@ const FormProduct = ({ handleValues, handleImage, handleSubmit, values, title}) 
               onChange={handleImage}/>
           </div>
   
-          <button type="submit" className="">{title}</button>
+          <button type="submit" className="bg-sky-800 px-4 py-3 text-white">{title}</button>
           </form>
       </div>
     )

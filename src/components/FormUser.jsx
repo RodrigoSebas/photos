@@ -43,7 +43,7 @@ const FormUser = ({ handleLoginEmail, handleRegisterEmail }) => {
                 className="border-2 p-1 h-12 w-full"
                 ref={inputEmailLogin}
               />
-              '
+              
             </div>
             <div className="mb-2">
               <label

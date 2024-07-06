@@ -11,7 +11,9 @@ const LoginView = () => {
     const { LoginWithGoogle} = useContext(AuthContext);
     console.log(LoginWithGoogle)
 
-    const notify = (msg, callback = {}) => toast(msg,callback);
+    const notify = (msg, callback = {}) => {
+        console.log("notify")
+        toast(msg,callback)};
 
     const handleLogin = async () => {
         try {
